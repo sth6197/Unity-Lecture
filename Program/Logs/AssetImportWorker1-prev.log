@@ -15,7 +15,7 @@ C:/Users/PC/Desktop/Unity-Lecture/Program
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-3684
+4733
 Successfully changed project path to: C:/Users/PC/Desktop/Unity-Lecture/Program
 C:/Users/PC/Desktop/Unity-Lecture/Program
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/PC/Desktop/Unity-Lecture/Program
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10076] Host "[IP] 192.168.45.236 [Port] 0 [Flags] 2 [Guid] 2910598607 [EditorId] 2910598607 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-74JCUV3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16680] Host "[IP] 192.168.45.236 [Port] 0 [Flags] 2 [Guid] 1024633535 [EditorId] 1024633535 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-74JCUV3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10076] Host "[IP] 192.168.45.236 [Port] 0 [Flags] 2 [Guid] 2910598607 [EditorId] 2910598607 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-74JCUV3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16680] Host "[IP] 192.168.45.236 [Port] 0 [Flags] 2 [Guid] 1024633535 [EditorId] 1024633535 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-74JCUV3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 11.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.22f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.22f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008613 seconds.
-- Loaded All Assemblies, in  0.345 seconds
+Registered in 0.004798 seconds.
+- Loaded All Assemblies, in  0.289 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.254 seconds
-Domain Reload Profiling: 596ms
-	BeginReloadAssembly (118ms)
+- Finished resetting the current domain, in  0.230 seconds
+Domain Reload Profiling: 518ms
+	BeginReloadAssembly (88ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
+	RebuildCommonClasses (33ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (123ms)
-		LoadAssemblies (114ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (109ms)
+		LoadAssemblies (85ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (121ms)
-			TypeCache.Refresh (120ms)
-				TypeCache.ScanAssembly (110ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (107ms)
+				TypeCache.ScanAssembly (96ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (255ms)
+	FinalizeReload (230ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (200ms)
+		SetupLoadedEditorAssemblies (180ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (139ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,57 @@ Domain Reload Profiling: 596ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.627 seconds
-Refreshing native plugins compatible for Editor in 4.32 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.550 seconds
+Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.527 seconds
-Domain Reload Profiling: 1150ms
-	BeginReloadAssembly (149ms)
+- Finished resetting the current domain, in  0.572 seconds
+Domain Reload Profiling: 1120ms
+	BeginReloadAssembly (125ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (377ms)
-		LoadAssemblies (298ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (348ms)
+		LoadAssemblies (251ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (171ms)
-			TypeCache.Refresh (149ms)
-				TypeCache.ScanAssembly (136ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (137ms)
 			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (528ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (572ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (394ms)
+		SetupLoadedEditorAssemblies (421ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (56ms)
-			ProcessInitializeOnLoadAttributes (301ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (292ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.28 ms, found 3 plugins.
+Failed to load shader (instanceID 472, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
+Failed to load shader (instanceID 420, GUID 4bf4cff0d0bac3d43894e2e8839feb40)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (57.5 KB). Loaded Objects now: 3557.
-Memory consumption went from 122.5 MB to 122.4 MB.
-Total: 2.212300 ms (FindLiveObjects: 0.166100 ms CreateObjectMapping: 0.071300 ms MarkObjects: 1.875900 ms  DeleteObjects: 0.098100 ms)
+Unloading 4120 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (1.7 MB). Loaded Objects now: 4572.
+Memory consumption went from 159.2 MB to 157.4 MB.
+Total: 3.443900 ms (FindLiveObjects: 0.255100 ms CreateObjectMapping: 0.169900 ms MarkObjects: 2.665200 ms  DeleteObjects: 0.352400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -181,288 +183,87 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 24494.360944 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Models/Gecko_LOD0.fbx
-  artifactKey: Guid(a387e69fc974de148a9f773909c6c2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Models/Gecko_LOD0.fbx using Guid(a387e69fc974de148a9f773909c6c2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0eb54ff7d1b07e6efffbdd69cc8ff6d') in 0.196000 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Models/Herring_LOD2.fbx
-  artifactKey: Guid(c9684499ad5cbd446a7e986398d6f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Models/Herring_LOD2.fbx using Guid(c9684499ad5cbd446a7e986398d6f70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3ee2375855209b7763840d60370f0b') in 0.027396 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Materials/M_Muskrat.mat
-  artifactKey: Guid(71824330e53acb448a9f9c1f4cfc7aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Materials/M_Muskrat.mat using Guid(71824330e53acb448a9f9c1f4cfc7aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc768f11264fa635ede67833700b18a') in 0.022310 seconds
+  Time since last request: 27355.588572 seconds.
+  path: Assets/Class3th (Life Cycle)/CrowArt - PBR Cardboard Box/Textures/t_box_1_normal.png
+  artifactKey: Guid(1e1677d631bce5d4f9630575884ecc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class3th (Life Cycle)/CrowArt - PBR Cardboard Box/Textures/t_box_1_normal.png using Guid(1e1677d631bce5d4f9630575884ecc9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f095cf5ca327a216a59ea06edb81bfa') in 0.089325 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Materials/M_Squid.mat
-  artifactKey: Guid(b7e0d0f0399a38b4683601664afd46f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Materials/M_Squid.mat using Guid(b7e0d0f0399a38b4683601664afd46f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da203a75a9cfd8b965aa4243077dff42') in 0.007880 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Class3th (Life Cycle)/CrowArt - PBR Cardboard Box/Prefabs/CarboardBox_1(Physics).prefab
+  artifactKey: Guid(acbdb13218a23b644b2a15c0a6fbd3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class3th (Life Cycle)/CrowArt - PBR Cardboard Box/Prefabs/CarboardBox_1(Physics).prefab using Guid(acbdb13218a23b644b2a15c0a6fbd3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88a77373035dbc9aa5917a3abaac0f9d') in 0.045185 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Materials/M_Taipan.mat
-  artifactKey: Guid(9ac546314689e854b8fe7a04dee1fc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Materials/M_Taipan.mat using Guid(9ac546314689e854b8fe7a04dee1fc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402a2a3aa75d29b599f0d8710791bf2f') in 0.008293 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Materials/M_Colobus.mat
-  artifactKey: Guid(fd1c8abba3cacb847a1c1796d0d8257d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Materials/M_Colobus.mat using Guid(fd1c8abba3cacb847a1c1796d0d8257d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599ab448cf1e78899c5f31a90645bca8') in 0.007813 seconds
+  path: Assets/Class3th (Life Cycle)/CrowArt - PBR Cardboard Box/Textures/t_box_1_metallic.psd
+  artifactKey: Guid(a9d45976a9795dc47b3388c171f6b9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class3th (Life Cycle)/CrowArt - PBR Cardboard Box/Textures/t_box_1_metallic.psd using Guid(a9d45976a9795dc47b3388c171f6b9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96bd6df50d63037b15e12c5a2196af2') in 0.007556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Class3th (Life Cycle)/CrowArt - PBR Cardboard Box/Models
+  artifactKey: Guid(3825490a0a6548d4e82232944fc7973e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class3th (Life Cycle)/CrowArt - PBR Cardboard Box/Models using Guid(3825490a0a6548d4e82232944fc7973e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4794d8256237089b467204932b58c51') in 0.000567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.234911 seconds.
+  path: Assets/Class3th (Life Cycle)/CrowArt - PBR Cardboard Box/Materials/t_box_1_albedo.mat
+  artifactKey: Guid(f101fa7e86719014db6b20149475ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class3th (Life Cycle)/CrowArt - PBR Cardboard Box/Materials/t_box_1_albedo.mat using Guid(f101fa7e86719014db6b20149475ee13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f538eef2433c1c97842a8b9624a5f97') in 0.021964 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Models/Colobus_LOD1.fbx
-  artifactKey: Guid(1f47972a945a0a34e883f2f09d5bf9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Models/Colobus_LOD1.fbx using Guid(1f47972a945a0a34e883f2f09d5bf9ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20014ef6ca002e9a42ac3d77af626cc') in 0.018750 seconds
+  path: Assets/Class3th (Life Cycle)/CrowArt - PBR Cardboard Box/Materials/t_box_1_occlusion.mat
+  artifactKey: Guid(7bdb112927bd9aa45b343a4b69a7c323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class3th (Life Cycle)/CrowArt - PBR Cardboard Box/Materials/t_box_1_occlusion.mat using Guid(7bdb112927bd9aa45b343a4b69a7c323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296eea99f95eb90f1d44f45e21f889b4') in 0.006386 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 34
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Models/Herring_LOD3.fbx
-  artifactKey: Guid(73313dbf9919afe4996b6b46ac09b042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Models/Herring_LOD3.fbx using Guid(73313dbf9919afe4996b6b46ac09b042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65f87d1be652c048606211dd0277476') in 0.017130 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Models/Gecko_LOD3.fbx
-  artifactKey: Guid(f6ba3f6a030fdfb41bb3b15470242c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Models/Gecko_LOD3.fbx using Guid(f6ba3f6a030fdfb41bb3b15470242c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca205c12641551c71c56b38238c1b69') in 0.014926 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000012 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Models/Herring_LOD1.fbx
-  artifactKey: Guid(eae5727004468be4e8e12ec5c90abccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Models/Herring_LOD1.fbx using Guid(eae5727004468be4e8e12ec5c90abccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975b1868ed13a00a209d84d4cb8e1e4a') in 0.018199 seconds
+  path: Assets/Class3th (Life Cycle)/CrowArt - PBR Cardboard Box/Materials/t_box_1_metallic.mat
+  artifactKey: Guid(6941f476500fd4645a8ff56add1f8703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class3th (Life Cycle)/CrowArt - PBR Cardboard Box/Materials/t_box_1_metallic.mat using Guid(6941f476500fd4645a8ff56add1f8703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51a70335229e22087667d337e3f73d5') in 0.009764 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Models/Gecko_LOD1.fbx
-  artifactKey: Guid(c15ff5a6d122ea54591a8237be7bce8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Models/Gecko_LOD1.fbx using Guid(c15ff5a6d122ea54591a8237be7bce8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bec4d42e4203e7b1a44b8a8c3dffbf0') in 0.016518 seconds
+  Time since last request: 44.984840 seconds.
+  path: Assets/Class2th (Script)/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack2.fbx
+  artifactKey: Guid(bf9ab18afee2f164d9b48f5591a2e137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class2th (Script)/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack2.fbx using Guid(bf9ab18afee2f164d9b48f5591a2e137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cda37bed9f0f5e682f7bb099598338') in 0.042668 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 2.021736 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Models/Pudu_LOD1.fbx
-  artifactKey: Guid(277a3d1afb7d07b4aaf6dd62ff400945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Models/Pudu_LOD1.fbx using Guid(277a3d1afb7d07b4aaf6dd62ff400945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665a5dce1157d03689b0e96a9e63e6c4') in 0.023551 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Models/Pudu_LOD3.fbx
-  artifactKey: Guid(4b60f39d1f696dd4db7bd987f185e074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Models/Pudu_LOD3.fbx using Guid(4b60f39d1f696dd4db7bd987f185e074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4aaf307dc039ddc8462706fb268710e') in 0.023459 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.350246 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Models/Sparrow_LOD1.fbx
-  artifactKey: Guid(9679f1fea2a0be24aac869c621837d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Models/Sparrow_LOD1.fbx using Guid(9679f1fea2a0be24aac869c621837d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21312071896b3ca7f78061c92a6bd108') in 0.019915 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 32
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Models/Squid_LOD0.fbx
-  artifactKey: Guid(167744f06e1cb4a4da962bbda66bcb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Models/Squid_LOD0.fbx using Guid(167744f06e1cb4a4da962bbda66bcb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de87036cd31df32604c096881b40ccd9') in 0.025806 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 50
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Models/Squid_LOD2.fbx
-  artifactKey: Guid(12a19f46ffb36374e8da9b6a6faeeb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Models/Squid_LOD2.fbx using Guid(12a19f46ffb36374e8da9b6a6faeeb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e2a22cf9fa366317231d035c53fbdf0') in 0.016874 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 50
-========================================================================
-Received Import Request.
-  Time since last request: 0.277571 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Models/Taipan_LOD3.fbx
-  artifactKey: Guid(6277a6458980f614ca973c1110e7994d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Models/Taipan_LOD3.fbx using Guid(6277a6458980f614ca973c1110e7994d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e09445a77df6ab6d4eb6a0230c282f5') in 0.017233 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 30
-========================================================================
-Received Import Request.
-  Time since last request: 1.037088 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Squid_LOD2.prefab
-  artifactKey: Guid(ef3a44aeaa302104a8659bb3e1043280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Squid_LOD2.prefab using Guid(ef3a44aeaa302104a8659bb3e1043280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4163b5f852577451c6029e195d1b09f4') in 0.063132 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 128
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Squid_LOD3.prefab
-  artifactKey: Guid(25d85c98cc39441419d10f3a9c093982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Squid_LOD3.prefab using Guid(25d85c98cc39441419d10f3a9c093982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843501de0a5c8e06a761ba488b0d4b5b') in 0.058816 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 128
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Taipan_LOD0.prefab
-  artifactKey: Guid(253dcfa9771a5c1419efd0dbba280340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Taipan_LOD0.prefab using Guid(253dcfa9771a5c1419efd0dbba280340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78adca389fe94fb3f83815ae9af2af1') in 0.057017 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 110
-========================================================================
-Received Import Request.
-  Time since last request: 1.449611 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Sparrow_LOD1.prefab
-  artifactKey: Guid(4723278e3a3a58540b464dde6b71b357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Sparrow_LOD1.prefab using Guid(4723278e3a3a58540b464dde6b71b357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7874b9d0c39203126904b2eec8628e2') in 0.068698 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 115
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Sparrow_LOD2.prefab
-  artifactKey: Guid(0a4e43d62aca8be4ea744d16adf2d477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Sparrow_LOD2.prefab using Guid(0a4e43d62aca8be4ea744d16adf2d477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60edb6751af86a8ca8ea5f23d4c4823b') in 0.053638 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 115
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Pudu_LOD0.prefab
-  artifactKey: Guid(612a0ff104ee9c34f8c86454e1d21dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Pudu_LOD0.prefab using Guid(612a0ff104ee9c34f8c86454e1d21dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef3eb43d6150da6b6520b2490b50e6d') in 0.069488 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 112
-========================================================================
-Received Import Request.
-  Time since last request: 0.564695 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Herring_LOD3.prefab
-  artifactKey: Guid(7aac57ab7fdd5b84fa7ebe28e279fd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Herring_LOD3.prefab using Guid(7aac57ab7fdd5b84fa7ebe28e279fd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8182cfa8b764bb23f0dbf5c814a010db') in 0.068548 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 110
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Gecko_LOD0.prefab
-  artifactKey: Guid(91a4f0f34294be14fa741fc1d9973a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Gecko_LOD0.prefab using Guid(91a4f0f34294be14fa741fc1d9973a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ba629a88f021e3c699e1d8a0a4263b') in 0.060464 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 110
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Muskrat_LOD1.prefab
-  artifactKey: Guid(d98f8da69b6d45242959b9c3789f6d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Muskrat_LOD1.prefab using Guid(d98f8da69b6d45242959b9c3789f6d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c50cbb558651495acb7e304f6fff18d') in 0.063653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 114
+Number of asset objects unloaded after import = 141
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Colobus_LOD3.prefab
-  artifactKey: Guid(1175f56e1052f8045a6fb8538864e2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/FREE/Prefabs/Single LODs/Colobus_LOD3.prefab using Guid(1175f56e1052f8045a6fb8538864e2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca3e40f10806563c8a744d1fd169d6a') in 0.055062 seconds
+  path: Assets/Class1th (Gizmo System)/Quirky Series Ultimate/_Shader/M_DemoPlane.mat
+  artifactKey: Guid(9f3d24ed163daf241b163a07e3eef4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class1th (Gizmo System)/Quirky Series Ultimate/_Shader/M_DemoPlane.mat using Guid(9f3d24ed163daf241b163a07e3eef4f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c55b205d78d9161470d22403a7b87ca') in 0.006224 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 114
+Number of asset objects unloaded after import = 1
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.425 seconds
-Refreshing native plugins compatible for Editor in 5.31 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.085 seconds
-Domain Reload Profiling: 1505ms
-	BeginReloadAssembly (143ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (205ms)
-		LoadAssemblies (275ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (13ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1086ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (424ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (306ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 5.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3085 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3605.
-Memory consumption went from 129.2 MB to 129.2 MB.
-Total: 2.533500 ms (FindLiveObjects: 0.176500 ms CreateObjectMapping: 0.068800 ms MarkObjects: 2.229400 ms  DeleteObjects: 0.057800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Class2th (Script)/Blink/Art/Animals/Stylized/Demo_Animals/DemoData/Ground.mat
+  artifactKey: Guid(7c3bc034d3e2c194fb074032d6ee4187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Class2th (Script)/Blink/Art/Animals/Stylized/Demo_Animals/DemoData/Ground.mat using Guid(7c3bc034d3e2c194fb074032d6ee4187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26cbc189379d9551b5df1697f64adb5') in 0.005989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
