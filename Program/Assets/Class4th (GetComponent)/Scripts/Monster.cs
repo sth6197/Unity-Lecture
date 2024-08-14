@@ -20,15 +20,15 @@ public class Monster : MonoBehaviour
     
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W))
         {
             move.OnMove(Vector3.forward);
         }
-        if(Input.GetKeyDown(KeyCode.A))
+        if (Input.GetKeyDown(KeyCode.A))
         {
             move.OnMove(Vector3.left);
         }
-        if(Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.S))
         {
             move.OnMove(Vector3.back);
         }
@@ -36,11 +36,11 @@ public class Monster : MonoBehaviour
         {
             move.OnMove(Vector3.right);
         }
-        if(Input.GetKeyDown (KeyCode.Space)) 
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             move.OnMove(Vector3.up);
         }
-        if( Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
             move.OnMove(Vector3.down);
         }
