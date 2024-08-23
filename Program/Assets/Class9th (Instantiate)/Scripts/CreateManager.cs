@@ -14,7 +14,7 @@ public class CreateManager : MonoBehaviour
 
     [SerializeField] float time;
 
-    WaitForSeconds waitForSeconds = new WaitForSeconds(3.0f);
+    WaitForSeconds waitForSeconds = new WaitForSeconds(5.0f);
 
     private void Start()
     {
@@ -29,31 +29,8 @@ public class CreateManager : MonoBehaviour
             {
                 clone = Instantiate(foods[count++]);
             }
-            else if (clone != null)
-            {
+            
                 yield return waitForSeconds;
-
-                for (int i = 0; i < foods.Length; i++)
-                {
-                    clone = Instantiate(foods[i]);
-
-                    clone.transform.position = new Vector3(Random.Range(0, 101), Random.Range(0, 301));
-                }
-            }
-        }
-            yield return waitForSeconds;
-    }
-
-    void Update()
-    {
-        time += Time.deltaTime;
-
-        if(time >= 3.0f)
-        {
-            clone = Instantiate(foods[0]);
-
-
-            time = 0.0f;
         }
     }
 }
