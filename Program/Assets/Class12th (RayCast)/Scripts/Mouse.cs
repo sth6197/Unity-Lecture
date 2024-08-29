@@ -6,6 +6,7 @@ public class Mouse : MonoBehaviour
 {
     [SerializeField] Ray ray;
     [SerializeField] RaycastHit rayCastHit;
+    [SerializeField] LayerMask layerMask;
 
     [SerializeField] Texture2D texture2D;
     
@@ -20,9 +21,14 @@ public class Mouse : MonoBehaviour
         {
             ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-            if(Physics.Raycast(ray, out rayCastHit, Mathf.Infinity))
+            if(Physics.Raycast(ray, out rayCastHit, Mathf.Infinity, layerMask))
             {
-                Debug.Log(rayCastHit.collider.name);
+                IInteractable interactable = rayCastHit.collider.GetComponent<IInteractable>();
+
+                if(interactable != null)
+                {
+                    interactable.Interact();
+                }
             }
         }
     }
